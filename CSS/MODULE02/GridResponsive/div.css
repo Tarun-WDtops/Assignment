@@ -23,6 +23,9 @@
   padding-top: 20px;
   padding-right: 20px;
 }
+.tarun p {
+  padding-bottom: 10px;
+}
 h3 {
   padding-bottom: 30px;
 }
@@ -30,12 +33,8 @@ h2 {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-li {
-  list-style-type: none;
-  justify-content: baseline;
-  row-gap: 30px;
-}
-li:hover {
+
+.tarun p:hover {
   color: brown;
 }
 .div1 {
