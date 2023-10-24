@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+.tarun {
+  display: flex;
+  justify-content: space-around;
+}
+.tarun1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 10px;
+  width: 85%;
+}
+.tarun2 {
+}
+h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+li {
+  list-style-type: none;
+}
+.div1 {
+  background: url(../../IMAGE/photo1.jpg) no-repeat center center/cover;
+  grid-column: 1/4;
+}
+.div2 {
+  background: url(../../IMAGE/photo2.jpg) no-repeat center center/cover;
+}
+.div3 {
+  background: url(../../IMAGE/photo3.jpg) no-repeat center center/cover;
+  grid-column: 1/2;
+}
+.div4 {
+  background: url(../../IMAGE/photo4.jpg) no-repeat center center/cover;
+  grid-column: 2/4;
+}
+.div5 {
+  background: url(../../IMAGE/photo5.jpg) no-repeat center center/cover;
+}
+.div6 {
+  background: url(../../IMAGE/photo13.jpg) no-repeat center center/cover;
+  grid-column: 1/3;
+}
+.div7 {
+  background: url(../../IMAGE/photo8.jpg) no-repeat center center/cover;
+  grid-column: 3/5;
+}
+.div8 {
+  background: url(../../IMAGE/photo7.jpg) no-repeat center center/cover;
+}
+.div9 {
+  background: url(../../IMAGE/photo6.jpg) no-repeat center center/cover;
+  grid-column: 2/4;
+  grid-row: 4/6;
+}
+.div10 {
+  background: url(../../IMAGE/photo10.jpg) no-repeat center center/cover;
+}
+.div11 {
+  background: url(../../IMAGE/photo11.jpg) no-repeat center center/cover;
+}
+.div12 {
+  background: url(../../IMAGE/photo12.jpg) no-repeat center center/cover;
+}
+.div13 {
+  background: url(../../IMAGE/photo9.jpg) no-repeat center center/cover;
+  grid-row: 6/8;
+  grid-column: 1/3;
+}
+.div14 {
+  background: url(../../IMAGE/photo15.jpg) no-repeat center center/cover;
+  grid-column: 3/5;
+  grid-row: 6/8;
+}
+.div15 {
+  background: url(../../IMAGE/photo14.jpg) no-repeat center center/cover;
+  grid-column: 1/5;
+  grid-row: 8/11;
+}
