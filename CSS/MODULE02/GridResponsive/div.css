@@ -18,6 +18,13 @@
   width: 85%;
 }
 .tarun2 {
+  text-align: end;
+  font-size: small;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+h3 {
+  padding-bottom: 30px;
 }
 h2 {
   padding-bottom: 20px;
@@ -25,6 +32,11 @@ h2 {
 }
 li {
   list-style-type: none;
+  justify-content: baseline;
+  row-gap: 30px;
+}
+li:hover {
+  color: brown;
 }
 .div1 {
   background: url(../../IMAGE/photo1.jpg) no-repeat center center/cover;
