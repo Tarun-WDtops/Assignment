@@ -8,7 +8,7 @@
 }
 .tarun {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .tarun1 {
   display: grid;
@@ -83,4 +83,13 @@ li {
   background: url(../../IMAGE/photo14.jpg) no-repeat center center/cover;
   grid-column: 1/5;
   grid-row: 8/11;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    flex-direction: column;
+  }
+  .tarun {
+    flex-direction: column;
+  }
 }
