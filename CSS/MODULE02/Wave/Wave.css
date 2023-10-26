@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maintext {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.wave {
+  width: 100%;
+}
+
+.container {
+  background-image: url(../../images/Background\\(3\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background: center; */
+}
+.image-1 {
+  position: absolute;
+  bottom: 188px;
+  left: 300px;
+}
+.image-2 {
+  position: absolute;
+  bottom: 87px;
+  left: 442px;
+}
+.image-3 {
+  position: absolute;
+  left: 750px;
+  bottom: 235px;
+}
+.image-4 {
+  position: absolute;
+  left: 935px;
+  top: 425px;
+}
+.image-5 {
+  position: absolute;
+  right: 300px;
+  top: 380px;
+}
+.Design {
+  padding-top: 40px;
+}
