@@ -62,75 +62,18 @@ header {
   left: 635px;
   top: 562px;
 }
-.container-01 {
-  background: url(../../IMAGE/background1.png) no-repeat center center/cover;
-  height: 500px;
-}
-.box1 {
-  width: 90px;
-  height: 90px;
-  transform: rotate(45deg);
-  /* justify-content: center; */
-  /* border: 1px solid #e74c3c; */
+
+.box {
   position: relative;
   margin-bottom: 30px;
   margin-left: 40px;
+  margin-top: 70px;
 }
 .first {
   position: absolute;
-  top: 40px;
-  right: 28px;
-  transform: rotate(-45deg);
-}
-.box2 {
-  width: 90px;
-  height: 90px;
-  /* border: 1px solid #e74c3c; */
-  position: relative;
-  margin-left: 40px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-}
-.heart {
-  position: absolute;
-  top: 35px;
-  right: 34px;
-}
-.box3 {
-  width: 90px;
-  height: 90px;
-  /* border: 1px solid #e74c3c; */
-  position: relative;
-  margin-left: 40px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-}
-.balb {
-  position: absolute;
-  top: 35px;
-  right: 34px;
-}
-.box4 {
-  width: 90px;
-  height: 90px;
-  /* border: 1px solid #e74c3c; */
-  position: relative;
-  margin-left: 40px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-}
-.text {
-  position: absolute;
-  top: 35px;
-  right: 34px;
+  top: -30px;
 }
 .boxes {
   display: flex;
-}
-
-.container-01 {
-  /* display: flex; */
-}
-.container-01 {
   text-align: center;
 }
