@@ -3,47 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
-.maintext {
+.main-text {
   color: white;
   text-align: center;
   padding-top: 100px;
 }
-.wave {
-  width: 100%;
+body {
+  overflow: hidden;
 }
-
-.container {
-  background-image: url(../../images/Background\\(3\).png);
-  background-repeat: no-repeat;
-  background-size: cover;
+h1 {
+  padding-bottom: 20px;
+}
+.container-01 {
+  background-image: url(../../IMAGE/wavebg.png);
   position: relative;
   /* background: center; */
+  margin-top: -40px;
 }
-.image-1 {
+.pic-1 {
   position: absolute;
-  bottom: 188px;
+  bottom: 175px;
   left: 300px;
 }
-.image-2 {
+.pic-2 {
   position: absolute;
-  bottom: 87px;
+  top: 355px;
   left: 442px;
 }
-.image-3 {
+.pic-3 {
   position: absolute;
-  left: 750px;
-  bottom: 235px;
+  left: 720px;
+  top: 395px;
 }
-.image-4 {
+.pic-4 {
   position: absolute;
   left: 935px;
-  top: 425px;
+  top: 405px;
 }
-.image-5 {
+.pic-5 {
   position: absolute;
-  right: 300px;
-  top: 380px;
+  right: 210px;
+  top: 360px;
 }
 .Design {
   padding-top: 40px;
+}
+.wave {
+  width: 100%;
 }

@@ -8,7 +8,7 @@
   color: white;
   clip-path: polygon(0 0, 100% 0, 100% 79%, 50% 100%, 0 79%);
   padding-top: 20px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 .nav-bar {
   display: flex;
@@ -25,19 +25,28 @@ li {
 h1 {
   font-size: 50px;
   padding-top: 20px;
-  padding-bottom: 50px;
+  /* padding-bottom: 20px;   */
 }
 .main-text {
   text-align: center;
   padding-top: 100px;
   word-spacing: 2px;
+  /* overflow-x: hidden; */
+}
+header {
+  position: relative;
+}
+
+.main-text p {
+  padding-top: 20px;
 }
 .red {
   width: 225px;
   height: 40px;
   border-radius: 3px;
   background-color: #e74c3c;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 .empty {
   width: 225px;
@@ -47,4 +56,81 @@ h1 {
   background-color: transparent;
   font-weight: 700;
   font-family: "Open Sans";
+}
+.Down {
+  position: absolute;
+  left: 635px;
+  top: 562px;
+}
+.container-01 {
+  background: url(../../IMAGE/background1.png) no-repeat center center/cover;
+  height: 500px;
+}
+.box1 {
+  width: 90px;
+  height: 90px;
+  transform: rotate(45deg);
+  /* justify-content: center; */
+  /* border: 1px solid #e74c3c; */
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.first {
+  position: absolute;
+  top: 40px;
+  right: 28px;
+  transform: rotate(-45deg);
+}
+.box2 {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid #e74c3c; */
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.heart {
+  position: absolute;
+  top: 35px;
+  right: 34px;
+}
+.box3 {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid #e74c3c; */
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.balb {
+  position: absolute;
+  top: 35px;
+  right: 34px;
+}
+.box4 {
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid #e74c3c; */
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.text {
+  position: absolute;
+  top: 35px;
+  right: 34px;
+}
+.boxes {
+  display: flex;
+}
+
+.container-01 {
+  /* display: flex; */
+}
+.container-01 {
+  text-align: center;
 }
