@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  height: 2600px;
+  background-color: burlywood;
+  margin-left: 60px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.container ul {
+  /* display: flex; */
+  list-style-type: none;
+  /* gap: 40px; */
+  padding-top: 15px;
+  position: absolute;
+  top: 48px;
+  /* justify-content: ; */
+}
+.team {
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.06em;
+  position: absolute;
+  left: 0;
+}
+
+.button {
+  background: #ece5ff;
+  width: 169px;
+  height: 48px;
+  position: absolute;
+  top: 3px;
+  left: 860px;
+  border-radius: 4px;
+  border: none;
+}
+.tarun {
+  position: absolute;
+  left: 280px;
+}
+.tarun1 {
+  position: absolute;
+  left: 400px;
+}
+.tarun2 {
+  position: absolute;
+  left: 490px;
+}
+.tarun3 {
+  position: absolute;
+  left: 576px;
+}
+.tarun4 {
+  position: absolute;
+  left: 790px;
+}
+.save {
+  width: 80px;
+  height: 25px;
+  background: #81c43b;
+  border-radius: 11px;
+  padding: 4px;
+  position: absolute;
+  top: 204px;
+  left: 442px;
+  z-index: 1;
+}
+.get {
+  width: 160px;
+  height: 25px;
+  background: #f2f9eb;
+  border-radius: 11px;
+  padding: 4px;
+  padding-left: 18px;
+  position: absolute;
+  top: 204px;
+  left: 510px;
+}
+.main-text {
+  position: absolute;
+  left: 260px;
+  top: 250px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.para {
+  font-size: smaller;
+  position: absolute;
+  top: 410px;
+  left: 400px;
+}
+.try01 {
+  padding: 5px;
+  position: absolute;
+  top: 510px;
+  left: 440px;
+}
+.free {
+  background: #794cff;
+  width: 84px;
+  height: 30px;
+  padding: 9px;
+  position: absolute;
+  top: 510px;
+  left: 613px;
+  border: none;
+}
+.overview {
+  width: 920px;
+  height: 654.29px;
+  position: absolute;
+  top: 579px;
+  left: 100px;
+}
+.second-text {
+  position: absolute;
+  top: 1300px;
+  left: 390px;
+}
+.images ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  top: 1320px;
+  left: 140px;
+  gap: 120px;
+}
+.timeline {
+  position: absolute;
+  top: 1400px;
+  left: 100px;
+}
+.third-text {
+  position: absolute;
+  top: 2100px;
+  left: 440px;
+}
