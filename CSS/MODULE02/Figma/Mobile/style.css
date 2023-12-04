@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  background: linear-gradient(0deg, #f0ebfa, #f0ebfa),
+    linear-gradient(0deg, #fbfafe, #fbfafe);
+  /* text-align: center; */
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container ul {
+  display: flex;
+  list-style-type: none;
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* gap: 155px; */
+}
+.nav-bar {
+  text-align: center;
+}
+.menu {
+  font-size: 13px;
+}
+
+.batan {
+  background: #ece5ff;
+  width: 169px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 60px;
+}
+
+.main-text {
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 0em;
+  font-family: Inter;
+  /* line-height: 60px; */
+  text-align: center;
+}
+
+.para {
+  font-size: small;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  text-align: center;
+}
+.try {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.try01 {
+  width: 275px;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.free {
+  width: 275px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px;
+  background: #794cff;
+  padding: 9px;
+  border: none;
+}
+img {
+  width: 100%;
+}
+.overview {
+  width: 290px;
+  height: 217px;
+  /* margin-top: 30px; */
+  margin: auto;
+}
+.second-text {
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+.images ul {
+  display: flex;
+  list-style: none;
+  width: 290px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  gap: 10px;
+  margin: auto;
+}
+
+.images ul li {
+  width: 25%;
+}
+.pic {
+  width: 100%;
+  height: 18px;
+}
+.timeline {
+  width: 290px;
+  height: 217px;
+  margin: auto;
+}
+.survey {
+  width: 290px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 15px;
+  background-color: #f6f3fc;
+  border-radius: 9px;
+}
+
+.line {
+  width: 290px;
+  height: 10px;
+  background-color: #794cff;
+  margin-top: 15px;
+  border: none;
+}
+.box1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.box2 {
+  text-align: center;
+  padding-top: 40px;
+}
+.box3 {
+  text-align: center;
+  padding-top: 40px;
+}
+.third-text {
+  text-align: center;
+  padding-top: 50px;
+}
+.img1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.first-box {
+  text-align: center;
+  margin: auto;
+  /* font-size: 20px; */
+  padding-top: 30px;
+}
+.hour {
+  padding-top: 50px;
+  text-align: center;
+}
+.img2 {
+  width: 290px;
+  height: 217px;
+}
+.text {
+  padding-top: 30px;
+}
+.paragraph {
+  padding: 20px 0px 20px;
+  font-size: 13px;
+}
+.battan {
+  width: 275px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px;
+  background: #794cff;
+  padding: 9px;
+  border: none;
+}
+.final-text {
+  padding-top: 50px;
+  text-align: center;
+}
+.paragraph01 {
+  padding: 20px 0px 20px;
+  font-size: 11px;
+}
+.photo1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.rahul {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.shnky {
+  width: 100%;
+  display: flex;
+  /* gap: 20px */
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: center;
+}
+.blue-box {
+  color: white;
+  background: #796eff;
+  padding-top: 30px;
+  text-align: center;
+}
+.store {
+  width: 200px;
+}
+.shnky1 {
+  padding-bottom: 30px;
+}
+footer {
+  padding-top: 50px;
+  text-align: center;
+  background: #1d2830;
+  color: white;
+}
+.footerr {
+  width: 100%;
+  text-align: center;
+  padding: 0 60px;
+}
+
+.indian {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.fphoto1 {
+  width: 200px;
+}
+
+.install-app {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+.app-store {
+  display: flex;
+  flex-direction: column;
+}
+
+.fphoto1 {
+  padding-bottom: 16px;
+}
+
+.footer-hr {
+  height: 1px;
+}
