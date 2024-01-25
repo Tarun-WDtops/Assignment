@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marksheet</title>
+    <style>
+      .container {
+        width: 600px;
+        border: 5px solid black;
+        margin: 0 auto;
+        margin-top: 50px;
+      }
+      .container-wrapper {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+      }
+      body {
+        background: url(../../Image/photo9.jpg) no-repeat center/cover;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      #input-div {
+        padding-top: 15px;
+      }
+      li {
+        padding-bottom: 13px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+      .lang {
+        padding-top: 69px;
+      }
+      #resultbtn {
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      #result {
+        margin-bottom: 20px;
+      }
+      p {
+        padding-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Marksheet for Information Technology</h1>
+      <div class="container-wrapper">
+        <div class="lang">
+          <ol>
+            <li>C Language</li>
+            <li>C++ Language</li>
+            <li>Database</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+            <li>Core java</li>
+          </ol>
+          <p>Total is : <span id="span"></span> /350</p>
+        </div>
+        <div id="input-div">
+          <h2>Enter Marks</h2>
+          <input type="text" id="first" value="" /><br />
+          <input type="text" id="second" value="" /><br />
+          <input type="text" id="third" value="" /><br />
+          <input type="text" id="four" value="" /><br />
+          <input type="text" id="five" value="" /><br />
+          <input type="text" id="six" value="" /><br />
+          <input type="text" id="seven" value="" /><br />
+          <button type="button" onclick="mark()" id="resultbtn">Result</button>
+          <br />
+          <input
+            type="text"
+            id="result"
+            value=""
+            placeholder="Percentage is:"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+      function mark() {
+        let a = parseInt(document.getElementById("first").value);
+        let b = parseInt(document.getElementById("second").value);
+        let c = parseInt(document.getElementById("third").value);
+        let d = parseInt(document.getElementById("four").value);
+        let e = parseInt(document.getElementById("five").value);
+        let f = parseInt(document.getElementById("six").value);
+        let g = parseInt(document.getElementById("seven").value);
+
+        let total = a + b + c + d + e + f + g;
+        document.getElementById("span").innerText = total;
+
+        let pr = (100 * total) / 350;
+        document.getElementById("result").value = pr + "%";
+      }
+    </script>
+  </body>
+</html>

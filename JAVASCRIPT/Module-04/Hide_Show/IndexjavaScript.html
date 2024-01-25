@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hide and Show</title>
+    <style>
+      body {
+        background: url(../../Image/pexels-felix-mittermeier.jpg) no-repeat
+          center/cover;
+        padding-bottom: 70px;
+      }
+      .container {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      h1 {
+        font-size: 50px;
+        color: antiquewhite;
+      }
+      span {
+        color: antiquewhite;
+        font-weight: bold;
+      }
+      #hide {
+        width: 400px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hide and Show</h1>
+      <input type="password" id="hide" value="" />
+      <input type="checkbox" id="show" onclick="password()" /><span
+        >Show Password</span
+      >
+    </div>
+
+    <script>
+      function password() {
+        let a = document.getElementById("hide");
+        if (a.type === "password") {
+          document.getElementById("hide").innerText = "hide";
+          a.type = "text";
+        } else {
+          document.getElementById("hide").innerText = "show";
+          a.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
