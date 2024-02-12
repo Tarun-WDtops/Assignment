@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Assignment</title>
+  </head>
+  <body>
+    Body (Great-Great-GrandParent)
+    <div class="great-great-grandparent">
+      Div (Grand-GrandParent)
+      <div class="grand-grandparent">
+        ul (Grand-Parent)
+        <ul class="grand-parent">
+          li (Direct-Parent)
+          <li class="direct-parent">
+            <input type="text" id="first-input" placeholder="Span" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- jQuery CDN is here -->
+    <script src="../../../../JQuery/Practice/00Js Library/jquery-3.7.1.min.js"></script>
+
+    <!-- jQuery CSS is here -->
+    <script>
+      $("*").css({
+        backgroundColor: "aliceblue",
+        fontSize: "20px",
+        margin: "10px",
+        color: "red",
+        paddingLeft: "5px",
+      });
+      $("li").css({
+        listStyleType: "none",
+      });
+      $("#first-input").css({
+        border: "2px solid grey",
+      });
+      $(".great-great-grandparent").css({
+        width: "500px",
+      });
+    </script>
+
+    <!-- jQuery Script -->
+    <script>
+      $(document).ready(function () {
+        $(".direct-parent").parents().css({ border: "2px solid red" });
+        $(".grand-parent").parents().css({ border: "2px solid red" });
+        $(".grand-grandparent").parents().css({ border: "2px solid red" });
+        $(".great-great-grandparent")
+          .parents()
+          .css({ border: "2px solid red" });
+        $(".body").parents().css({ border: "2px solid red" });
+      });
+    </script>
+  </body>
+</html>
