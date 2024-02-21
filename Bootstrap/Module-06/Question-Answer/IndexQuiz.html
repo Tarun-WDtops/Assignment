@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Assignment Question-Answer</title>
+    <style>
+        .container{
+            background-color: bisque;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Module (Bootstrap Basic & Advanced) – 6</h1>
+
+      <p><b>Q.[1] </b> What are the advantages of Bootstrap?</p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b>Bootstrap creates responsive websites with an easy,
+          functional and stylish framework that saves the web developer time and
+          work from coding and recoding simple elements that are used across
+          most web projects. Bootstrap provides standard and customised
+          preferences affording beginners the opportunity to learn to code and
+          seasoned web developers to spend more time on creating unique and
+          specific websites.
+        </p>
+      </details>
+      <hr />
+      <hr />
+
+      <p><b>Q.[2]</b> What is a Bootstrap Container, and how does it work?</p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b>Containers are the most basic layout element in Bootstrap
+          and are required when using our default grid system. Containers are
+          used to contain, pad, and (sometimes) center the content within them.
+          While containers can be nested, most layouts do not require a nested
+          container.
+        </p>
+
+        <p><b>Bootstrap comes with three different containers:</b></p>
+        <ul>
+          <li>
+            <em style="color: blueviolet">.container</em>, which sets a
+            max-width at each responsive breakpoint.
+          </li>
+          <li>
+            <em style="color: blueviolet">.container-fluid</em> which is
+            <em style="color: blueviolet">width: 100%</em> at all breakpoints.
+          </li>
+          <li>
+            <em style="color: blueviolet">.container-{breakpoint} </em>which is
+            <em style="color: blueviolet">width: 100%</em> until the specified
+            breakpoint.
+          </li>
+        </ul>
+      </details>
+      <hr />
+      <hr />
+
+      <p><b>Q.-[3] </b> What are the default Bootstrap text settings?</p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b>Bootstrap 4 uses a default
+          <em style="color: blueviolet">font-size</em> of 16px, and its
+          <em style="color: blueviolet">line-height</em> is 1.5.
+        </p>
+        <p>
+          The default font-family is "Helvetica Neue", Helvetica, Arial,
+          sans-serif.
+        </p>
+        <p>In addition, all &lt;p&gt; elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+        </p>
+      </details>
+      <hr />
+      <hr />
+
+      <p><b>Q.[4] </b> What do you know about the Bootstrap Grid System?</p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b>Bootstrap's grid system uses a series of containers, rows,
+          and columns to layout and align content. It's built with flexbox and
+          is fully responsive. Below is an example and an in-depth look at how
+          the grid comes together.
+        </p>
+      </details>
+
+      <hr />
+      <hr />
+
+      <p>
+        <b>Q.[5]</b> What is the difference between Bootstrap 4 and Bootstrap?</p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b>Bootstrap 4 has five levels: xs, sm, md, lg, and xl.
+          Bootstrap 5 has six levels: xs, sm, md, lg, xl, and xxl. Bootstrap 4
+          includes jquery and all associated plug-ins. Jquery has been deleted
+          and replaced with vanilla JS and several functional plug-ins in
+          Bootstrap 5.
+        </p>
+      </details>
+      <hr />
+      <hr />
+
+      <p>
+        <b>Q.[6]</b> What is a Button Group, and what is the class for a basic
+        Button Group?
+      </p>
+      <details>
+        <summary></summary>
+        <p>
+          <b>Ans. </b><em style="color: blueviolet">“Button Groups”</em> in
+          Bootstrap is a class of name “btn-group” which is used to create a
+          series of buttons in groups (without spaces) vertically or
+          horizontally. Syntax: This is the basic syntax of the button group
+          class where each button has its own class of “btn”.
+        </p>
+      </details>
+      <hr>
+      <hr>
+      
+      <p><b>Q.[7] </b> How can you use Bootstrap to make thumbnails?</p>
+      <details>
+        <summary></summary>
+        <p><b>Ans. </b>
+        <ul>
+            <li><b>Step 1:</b> Include Bootstrap and jQuery CDN into the <head> tag before all other stylesheets to load our CSS.</li>
+            <li><b>Step 2:</b> Add <div> tag in the HTML body with class row. In that <div> create four div sections to create four images.</li>
+            <li><b>Step 3:</b> Add “col-sm-6” and “col-md-3” to four div sections which creates webpage responsive.</li>
+            <li><b>Step 4:</b> Add <a> tag with class value thumbnail to define the link of the image in the next line.</li>
+        </ul>
+    </p>
+      </details>
+      <hr>
+      <hr>
+
+      <p><b>Q.[8]</b>  In Bootstrap 4, what is flexbox?</p>
+      <details>
+        <summary></summary>
+        <p><b>Ans. </b>Bootstrap 4 now uses flexbox, instead of floats, to handle the layout. The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+      </details>
+      <hr>
+      <hr>
+
+      <p><b>Q.[9]</b>  How can one create an alert in Bootstrap?</p>
+      <details>
+        <summary></summary>
+        <p><b>Ans. </b>Alerts are created with the <em style="color: blueviolet">.alert</em> class, followed by one of the four contextual classes <em style="color: blueviolet">.alert-success</em>, <em style="color: blueviolet">.alert-info</em>, <em style="color: blueviolet">.alert-warning</em> or <em style="color: blueviolet">.alert-danger</em>:</p>
+        <ul>
+            <li><em style="color: darkgreen;"><b>Success!</b> This alert box indicates a successful or positive action.</em></li>
+            <li><em style="color: blue;"><b>Info!</b> This alert box indicates a neutral informative change or action.</em></li>
+            <li><em style="color: darksalmon;"><b>Warning!</b> This alert box indicates a warning that might need attention.</em></li>
+            <li><em style="color: brown;"><b>Danger!</b> This alert box indicates a dangerous or potentially negative action. This alert box indicates a dangerous or potentially negative action.</em></li>
+        </ul>
+      </details>
+      <hr>
+      <hr>
+
+      <p><b>Q.[10]</b>What is a bootstrap card and how would you create one?</p>
+      <details>
+        <summary></summary>
+        <p><b>Ans. </b>To create Bootstrap cards, you need to understand the card class and its customizations and layouts. A basic Bootstrap card consists of a . card class with the . card-body class, allowing you to add text, images, links, and other Bootstrap elements within a rounded border.</p>
+      </details>
+      <hr><hr>
+    </div>
+  </body>
+</html>
